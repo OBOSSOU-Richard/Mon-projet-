@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription Étudiant</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Nouvel Étudiant</h1>
+        <form action="ajouter_etudiant.php" method="POST">
+            <input type="text" name="nom" placeholder="Nom" required>
+            <input type="text" name="prenom" placeholder="Prénom" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="text" name="telephone" placeholder="Téléphone" required>
+            <button type="submit">Enregistrer l'étudiant</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+#form.etudiant{
+    flex-direction: column;
+
+}
+body{
+    background-color:burlywood;
+}
+.bouton{
+    text-align: center;
+    color: green;
+}

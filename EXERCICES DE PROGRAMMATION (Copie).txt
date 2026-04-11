@@ -1,0 +1,254 @@
+EXERCICES DE PROGRAMMATION C - NIVEAUX 1 À 6
+À rendre dans des fichiers .c séparés
+
+📘 NIVEAU 1 : BASES FONDAMENTALES
+Exercice 1.1 : Premières déclarations et opérations
+Fichier : declarations.c
+
+Écrivez un programme qui :
+
+Déclare trois variables : age (entier), temperature (flottant), lettre (caractère)
+
+Initialise-les avec : age = 25, temperature = 19.5, lettre = 'A'
+
+Affiche : Valeurs initiales : age = [valeur], temperature = [valeur], lettre = [valeur]
+
+Demande : Entrez deux nombres entiers :
+
+Lit deux entiers et affiche : Moyenne = [valeur]
+
+Demande : Entrez deux entiers a et b :
+
+Échange les valeurs sans variable temporaire et affiche : Apres echange : a = [valeur], b = [valeur]
+
+Exercice 1.2 : Structures de contrôle simples
+Fichier : controle.c
+
+Écrivez un programme qui :
+
+Demande : Entrez un nombre entier :
+
+Affiche : Le nombre est pair ou Le nombre est impair
+
+Demande : Entrez un autre nombre :
+
+Affiche : Le nombre est negatif / Le nombre est nul / Le nombre est positif
+
+Affiche Boucle for : puis les nombres 1 à 10 avec boucle for
+
+Affiche Boucle while : puis les nombres 1 à 10 avec boucle while
+
+Affiche Boucle do-while : puis les nombres 1 à 10 avec boucle do-while
+
+📗 NIVEAU 2 : TABLEAUX ET CHAÎNES
+Exercice 2.1 : Manipulation de tableaux
+Fichier : tableaux.c
+
+Écrivez un programme qui :
+
+Déclare un tableau tab de 10 entiers
+
+Demande : Remplissage du tableau (10 entiers) :
+
+Remplit le tableau avec valeurs saisies
+
+Affiche : Tableau : suivi des 10 valeurs
+
+Affiche : Maximum = [valeur] a la position [indice]
+
+Affiche : Tableau inverse : suivi des valeurs inversées
+
+Demande : Entrez une valeur a rechercher :
+
+Affiche : Cette valeur apparait [nombre] fois
+
+Exercice 2.2 : Chaînes de caractères
+Fichier : chaines.c
+
+Écrivez un programme qui :
+
+Déclare deux chaînes : prenom[50] et nom[50]
+
+Demande : Entrez votre prenom : puis Entrez votre nom :
+
+Affiche : Nom complet : [prenom] [nom]
+
+Demande : Entrez une phrase :
+
+Affiche : Nombre de voyelles : [nombre]
+
+Demande : Entrez un mot :
+
+Affiche : Ce mot est un palindrome ou Ce mot n'est pas un palindrome
+
+📕 NIVEAU 3 : FONCTIONS
+Exercice 3.1 : Décomposition en fonctions
+Fichier : fonctions.c
+
+Écrivez un programme avec ces fonctions :
+
+int est_premier(int n) - retourne 1 si premier, 0 sinon
+
+float puissance(float x, int y) - calcule x puissance y
+
+float moyenne_tableau(int tab[], int taille) - retourne la moyenne
+
+void inverser_chaine(char chaine[]) - inverse la chaîne sur place
+
+Le programme principal doit :
+
+Demander : Entrez un nombre pour test primalite :
+
+Afficher : Ce nombre est premier ou Ce nombre n'est pas premier
+
+Demander : Entrez x et y pour calcul de x^y :
+
+Afficher : x^y = [valeur]
+
+Utiliser tableau de test {5, 10, 15, 20, 25}
+
+Afficher : Moyenne du tableau = [valeur]
+
+Demander : Entrez une chaine a inverser :
+
+Afficher : Chaine inversee : [resultat]
+
+Exercice 3.2 : Variables statiques
+Fichier : statique.c
+
+Écrivez un programme qui :
+
+Définit une fonction void afficher_compteur() avec variable locale static int compteur
+
+Initialise compteur = 0 et l'incrémente à chaque appel
+
+Affiche : Appel numero [valeur] à chaque appel
+
+Le programme principal appelle cette fonction 5 fois
+
+📒 NIVEAU 4 : POINTEURS
+Exercice 4.1 : Bases des pointeurs
+Fichier : pointeurs.c
+
+Écrivez un programme qui :
+
+Déclare un entier x = 10
+
+Affiche : Valeur de x = [valeur]
+
+Affiche : Adresse de x = [adresse]
+
+Utilise un pointeur px pour modifier x à 20
+
+Affiche : Nouvelle valeur de x = [valeur]
+
+Définit une fonction void echanger(int *a, int *b)
+
+Demande : Entrez deux entiers a echanger :
+
+Affiche : Avant echange : a=[valeur], b=[valeur]
+
+Affiche : Apres echange : a=[valeur], b=[valeur]
+
+Parcourt un tableau {1,2,3,4,5} avec pointeur et affiche chaque élément
+
+Exercice 4.2 : Allocation dynamique
+Fichier : dynamique.c
+
+Écrivez un programme qui :
+
+Demande : Entrez la taille du tableau :
+
+Alloue dynamiquement le tableau tab avec malloc()
+
+Demande : Remplissez le tableau :
+
+Affiche : Tableau dynamique : suivi des valeurs
+
+Libère la mémoire avec free()
+
+Affiche : Memoire liberee
+
+📔 NIVEAU 5 : STRUCTURES
+Exercice 5.1 : Structures géométriques
+Fichier : geometrie.c
+
+Écrivez un programme qui :
+
+Définit la structure Point avec float x et float y
+
+Définit la structure Rectangle avec Point coin_sup_gauche et Point coin_inf_droit
+
+Crée une fonction float surface_rectangle(Rectangle r)
+
+Le programme principal crée un rectangle avec points (0,4) et (5,0)
+
+Affiche : Rectangle : coin SG(0,4), coin ID(5,0)
+
+Affiche : Surface = [valeur]
+
+Exercice 5.2 : Gestion d'étudiants
+Fichier : etudiants.c
+
+Écrivez un programme qui :
+
+Définit la structure Etudiant avec :
+
+char nom[50], char prenom[50]
+
+float notes[5]
+
+float moyenne
+
+Déclare un tableau groupe de 3 étudiants
+
+Crée les fonctions :
+
+void saisir_etudiant(Etudiant *e)
+
+void calculer_moyenne(Etudiant *e)
+
+void afficher_etudiant(Etudiant e)
+
+Etudiant meilleur_etudiant(Etudiant tab[], int taille)
+
+Le programme principal saisit 3 étudiants, calcule leurs moyennes, les affiche, et trouve le meilleur
+
+📓 NIVEAU 6 : FICHIERS
+Exercice 6.1 : Fichiers texte
+Fichier : fichiers_texte.c
+
+Écrivez un programme qui :
+
+Crée un fichier notes.txt et y écrit 10 nombres aléatoires (un par ligne)
+
+Affiche : Fichier notes.txt cree avec 10 nombres
+
+Rouvre le fichier en lecture, calcule la moyenne
+
+Affiche : Moyenne des nombres = [valeur]
+
+Copie notes.txt vers copie_notes.txt
+
+Affiche : Copie terminee
+
+Exercice 6.2 : Fichiers binaires
+Fichier : fichiers_binaires.c
+
+Écrivez un programme qui :
+
+Utilise la structure Etudiant de l'exercice 5.2
+
+Crée 3 étudiants et les sauvegarde dans etudiants.dat
+
+Affiche : 3 etudiants sauvegardes
+
+Recharge les données dans un nouveau tableau
+
+Affiche : Donnees rechargees : puis les informations des étudiants
+
+Ajoute un 4ème étudiant à la fin du fichier
+
+Affiche : Etudiant ajoute avec succes
+
+

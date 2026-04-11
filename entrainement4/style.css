@@ -1,0 +1,88 @@
+/* Importation d'une police plus moderne */
+@import url('418qsZatUTL.jpg');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: url('418qsZatUTL.jpg');
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.toolbar {
+    margin: 20px 0;
+    text-align: right;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+}
+
+/* Style du Tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    background-color: #f8f9fa;
+    color: #7f8c8d;
+    text-align: left;
+    padding: 15px;
+    border-bottom: 2px solid #eee;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    color: #34495e;
+}
+
+tr:hover {
+    background-color: #fcfcfc;
+}
+
+/* Bouton Supprimer */
+.btn-delete {
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: 0.2s;
+}
+
+.btn-delete:hover {
+    background-color: #ff6b81;
+}

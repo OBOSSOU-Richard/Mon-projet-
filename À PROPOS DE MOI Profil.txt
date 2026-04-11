@@ -1,0 +1,86 @@
+À PROPOS DE MOI (Profil professionnel)
+Version simple (étudiant débutant)
+
+Étudiant en informatique, motivé et passionné par la programmation et les nouvelles technologies. Je possède des bases solides en langage C, HTML et bases de données MySQL. Je suis sérieux, organisé et prêt à apprendre rapidement.
+
+Version plus professionnelle
+
+Informaticien passionné par le développement logiciel et les technologies numériques. Je maîtrise les bases de la programmation, la création de sites web et la gestion de bases de données. Dynamique, autonome et rigoureux, je cherche à développer mes compétences et contribuer à des projets informatiques.
+
+💻 COMPÉTENCES INFORMATIQUES
+🔹 Programmation
+
+Langage C
+
+HTML / CSS
+
+JavaScript (bases)
+
+MySQL (bases de données)
+
+🔹 Systèmes et outils
+
+Linux (Ubuntu)
+
+Windows
+
+Visual Studio Code
+
+CodeBlocks
+
+MySQL Workbench
+
+🔹 Autres compétences
+
+Algorithmique et logique de programmation
+
+Création de sites web
+
+Gestion de projets informatiques simples
+
+Maintenance informatique de base
+
+🏢 EXPÉRIENCE PROFESSIONNELLE
+Si tu es étudiant sans expérience (tu peux écrire)
+
+Projet académique – Étudiant en informatique
+
+Réalisation de programmes en langage C (calcul, gestion étudiants, jeux).
+
+Création de pages web en HTML.
+
+Conception de bases de données MySQL pour des exercices et projets scolaires.
+
+Si tu veux une version plus professionnelle (exemple fictif)
+
+Stagiaire en informatique – 2025
+
+Développement de petites applications en C.
+
+Création de sites web simples pour des projets académiques.
+
+Gestion de bases de données MySQL.
+
+Assistance informatique et maintenance de postes.
+
+✅ BONUS : Exemple court prêt pour CV
+
+Profil
+
+Informaticien débutant passionné par la programmation et les technologies numériques. Sérieux, motivé et capable de travailler en équipe.
+
+Compétences
+
+Programmation : C, HTML, CSS
+
+Base de données : MySQL
+
+Systèmes : Windows, Linux
+
+Outils : VS Code, CodeBlocks
+
+Expérience
+
+Projets académiques en programmation C et développement web
+
+Création de bases de données MySQL pour gestion d’étudiants
